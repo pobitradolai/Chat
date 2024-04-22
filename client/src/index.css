@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.messages {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.sent {
+  background: linear-gradient(135deg, #2980b9, #3498db);
+  color: white;
+  align-self: flex-end;
+}
+
+.received {
+  background: #ffffff;
+  color: black;
+}
+
+.sender {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+.send-button {
+  padding: 12px 25px;
+  background: linear-gradient(135deg, #2980b9, #3498db);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.online-img {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 100px;
+  height: 100px;
+  background-image: url('https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
