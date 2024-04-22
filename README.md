@@ -21,5 +21,5 @@ You can find a live demo of the application [here](https://example.com).
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/chat-application.git
+   https://github.com/pobitradolai/Chat.git
 
